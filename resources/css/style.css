@@ -1,0 +1,34 @@
+header {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+#topMatter {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.myTimesDiv {
+  align-items: center;
+  color: MediumAquamarine;
+}
+
+.Verdana14pxBold {
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  color: black;
+}
