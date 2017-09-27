@@ -1,21 +1,17 @@
-header {
-  display: inline-flex;
-  justify-content: space-between;
-}
-
 #topMatter {
-  width: 800px;
   display: flex;
   justify-content: space-between;
 }
 
 .leftHeader {
   display: flex;
-  justify-content: space-between;
+}
+
+.myTimesLogo {
+  margin-right: 10px;
 }
 
 .myTimesDiv {
-  align-items: center;
   color: MediumAquamarine;
 }
 
@@ -28,7 +24,11 @@ header {
 
 .navigation {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.topNavItem {
+  margin-left: 18px;
   color: black;
 }
