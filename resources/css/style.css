@@ -1,6 +1,7 @@
 #topMatter {
   display: flex;
   justify-content: space-between;
+  margin-right: 40px;
 }
 
 .leftHeader {
@@ -31,8 +32,4 @@
 .topNavItem {
   margin-left: 18px;
   color: black;
-}
-
-.topScience {
-  margin-right: 40px;
 }
