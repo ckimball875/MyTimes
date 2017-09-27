@@ -23,10 +23,8 @@ header {
 }
 
 .navigation {
-  display: flex;
   flex-wrap: wrap;
   margin-right: 50px;
-  color: black;
 }
 
 .navigation span {
