@@ -1,40 +1,39 @@
 header {
   display: flex;
-  justify-content: space-between;
-}
-
-#topMatter {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 40px;
-}
-
-.leftHeader {
-  display: flex;
-}
-
-.myTimesLogo {
-  margin-right: 10px;
-}
-
-.myTimesDiv {
-  color: MediumAquamarine;
-}
-
-.Verdana14pxBold {
+  height: 80px;
+  border-bottom: solid 1px black;
   align-items: center;
+  justify-content: space-between;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
 }
 
-.navigation {
+.logo {
   display: flex;
   align-items: center;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+.logo p {
+  color: MediumAquamarine;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 50px;
   color: black;
 }
 
-.topNavItem {
-  margin-left: 40px;
+.navigation span {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+span a {
   color: black;
 }
