@@ -35,3 +35,37 @@ header {
 span a {
   color: black;
 }
+
+.newsStories {
+  display: flex;
+  margin-top: 40px;
+}
+
+.leftColumn {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  min-height: 300px;
+  width: 630px;
+  border: solid 1px black;
+  margin-right: 35px;
+}
+
+.middleColumn {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  min-height: 300px;
+  width: 300px;
+  border: solid 1px black;
+  margin-right: 35px;
+}
+
+.rightColumn {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  min-height: 300px;
+  width: 240px;
+  border: solid 1px black;
+}
