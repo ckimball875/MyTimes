@@ -12,11 +12,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   padding-bottom: 10px;
   border-bottom: solid 1px black;
+}
+
+header p {
+  font-family: Verdana;
 }
 
 .logo {
@@ -60,7 +63,6 @@ span a {
   flex-shrink: 0;
   flex-direction: column;
   min-height: 300px;
-  border: solid 1px black;
   margin-right: 35px;
 }
 
@@ -78,6 +80,7 @@ span a {
 
 p {
   margin: 0px;
+  font-family: Georgia;
   font-size: 17px;
 }
 
@@ -110,4 +113,14 @@ p {
   margin-top: 15px;
   padding-bottom: 15px;
   border-bottom: solid 1px black;
+}
+
+.motherOfThree {
+  background-image: url("../../resources/images/img-story-main.png");
+}
+
+.imageText {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
