@@ -3,6 +3,10 @@ html, body {
   padding: 0px;
 }
 
+body {
+  z-index: 10;
+}
+
 header {
   z-index: 20;
   position: fixed;
@@ -17,9 +21,6 @@ header {
   font-weight: bold;
   padding-bottom: 10px;
   border-bottom: solid 1px black;
-}
-body {
-  z-index: 10;
 }
 
 header p {
@@ -53,11 +54,19 @@ span a {
 }
 
 .news {
+  position: relative;
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   width: 1285px;
   margin-top: 70px;
+  padding-bottom: 400px;
   padding-top: 40px;
+}
+
+.newsAndFooter {
+  display: flex;
+  flex-direction: column;
 }
 
 .column {
@@ -183,4 +192,49 @@ p {
   font-weight: bold;
   font-size: 40px;
   color: white;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 370px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+}
+
+footer .topLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.myTimes {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.myTimes p {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer .navigation {
+  margin-right: 0px;
+}
+
+footer .navigation span {
+  margin-left: 20px;
+}
+
+footer p {
+  font-family: Verdana;
+  font-size: 12px;
 }
