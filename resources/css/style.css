@@ -199,12 +199,13 @@ footer {
   left: 0;
   bottom: 0;
   height: 370px;
-  width: 800px;
   display: flex;
+  width: 800px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: MediumAquamarine;
+  margin: auto;
 }
 
 footer .topLine {
