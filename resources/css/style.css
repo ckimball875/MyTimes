@@ -220,17 +220,18 @@ footer {
   bottom: 0;
   height: 370px;
   display: flex;
+  flex-flow: column wrap;
   width: 800px;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: MediumAquamarine;
-  margin: auto;
+  margin: 0 auto;
 }
 
 footer .topLine {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 20px;
 }
