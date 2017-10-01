@@ -29,7 +29,6 @@ header p {
 .logo {
   display: flex;
   flex: auto;
-  border: solid 1px black;
   align-items: center;
   color: MediumAquamarine;
   padding-left: 40px;
@@ -87,17 +86,9 @@ p {
   font-size: 17px;
 }
 
-.storyWithHeading {
-  border: solid 2px black;
-}
-
 .storyHeading {
   margin: 25px 0px 25px 0px;
   font-weight: bold;
-}
-
-.border1 {
-  border: solid 1px black;
 }
 
 .headingFontSize {
@@ -111,7 +102,6 @@ p {
 .story {
   margin-top: 15px;
   padding-bottom: 15px;
-  border-bottom: solid 1px black;
 }
 
 .containingImage {
@@ -121,6 +111,21 @@ p {
 
 .height300 {
   height: 300px;
+}
+
+.height70 {
+  height: 70px;
+}
+
+.subColumns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subColumn {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .imageMain {
