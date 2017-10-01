@@ -172,9 +172,29 @@ p {
   background-image: url("../../resources/images/img-story-3.png");
 }
 
-.imageContent {
-  display: flex;
+.imageMainContent {
   position: absolute;
+  display: flex;
+  top: 75px;
+  left: 30px;
+}
+
+.image1Content {
+  position: absolute;
+  display: flex;
+  top: 115px;
+}
+
+.image2Content {
+  position: absolute;
+  display: flex;
+  top: 98px;
+}
+
+.image3Content {
+  position: absolute;
+  display: flex;
+  top: 98px;
 }
 
 .centerText {
