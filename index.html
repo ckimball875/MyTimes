@@ -9,26 +9,16 @@
     <header>
       <div class="logo">
         <img src="./resources/images/img-myt-logo.jpg"/>
-        <div>
-          <p>My Times</p>
-        </div>
+        <span>My Times</span>
       </div>
       <nav class="navigation">
-        <span>
-          <p><a href="https://en.wikipedia.org/wiki/World">World</a></p>
-        </span>
-        <span>
-          <p><a href="https://en.wikipedia.org/wiki/United_States">U.S.</a></p>
-        </span>
-        <span>
-          <p><a href="https://en.wikipedia.org/wiki/Tech">Tech</a></p>
-        </span>
-        <span>
-          <p><a href="https://en.wikipedia.org/wiki/Science">Science</a></p>
-        </span>
+        <span><a href="https://en.wikipedia.org/wiki/World">World</a></span>
+        <span><a href="https://en.wikipedia.org/wiki/United_States">U.S.</a></span>
+        <span><a href="https://en.wikipedia.org/wiki/Tech">Tech</a></span>
+        <span><a href="https://en.wikipedia.org/wiki/Science">Science</a></span>
       </nav>
     </header>
-    <div class="newsAndFooter">
+      <!--The header, news, and footer are all at the same level-->
       <div class="news">
         <div class="left column">
           <div class="containingImage imageMain height300 left">
@@ -108,33 +98,26 @@
       </div>
       <footer>
         <div class="topLine">
-          <div class="myTimes">
-            <p>MY Times</p>
+          <!-- Take <div> out - only need <p>-->
+          <div>
+            <p class="myTimes">MY Times</p>
           </div>
-          <div class="myTimes">
-            <p>|</p>
+          <div>
+            <p class="myTimes">|</p>
           </div>
-          <div class="navigation">
-            <nav>
-              <span>
-                <p><a href="https://en.wikipedia.org/wiki/World">World</a></p>
-              </span>
-              <span>
-                <p><a href="https://en.wikipedia.org/wiki/United_States">U.S.</a></p>
-              </span>
-              <span>
-                <p><a href="https://en.wikipedia.org/wiki/Tech">Tech</a></p>
-              </span>
-              <span>
-                <p><a href="https://en.wikipedia.org/wiki/Science">Science</a></p>
-              </span>
+          <div>
+            <nav class="footerText">
+              <!-- Take '<p>'s out of <span>'s-->
+              <span><a href="https://en.wikipedia.org/wiki/World">World</a></span>
+              <span><a href="https://en.wikipedia.org/wiki/United_States">U.S.</a></span>
+              <span><a href="https://en.wikipedia.org/wiki/Tech">Tech</a></span>
+              <span><a href="https://en.wikipedia.org/wiki/Science">Science</a></span>
             </nav>
           </div>
         </div>
         <div>
-          <p>&copy 2016, My Times (A Division of Codecademy bite)</p>
+          <p class="footerText">&copy 2016, My Times (A Division of Codecademy bite)</p>
         </div>
       </footer>
-    </div>
   </body>
 </html>
